@@ -45,14 +45,14 @@
         <counts>
           <entry key="gitignore" value="1" />
           <entry key="gradle" value="1" />
-          <entry key="java" value="1" />
+          <entry key="java" value="2" />
           <entry key="properties" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="1" />
+          <entry key="JAVA" value="2" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="1" />
         </counts>
@@ -61,13 +61,13 @@
         <counts>
           <entry key="dummy" value="1" />
           <entry key="gradle" value="21" />
-          <entry key="java" value="198" />
+          <entry key="java" value="433" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="21" />
-          <entry key="JAVA" value="198" />
+          <entry key="JAVA" value="433" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -76,30 +76,32 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/FirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+            <state relative-caret-position="136">
+              <caret line="17" column="11" selection-start-line="17" selection-start-column="8" selection-end-line="18" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#300#301#0" expanded="true" />
                 <element signature="e#343#344#0" expanded="true" />
                 <element signature="e#549#550#0" expanded="true" />
                 <element signature="e#578#579#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/LoginWiki.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#401#402#0" expanded="true" />
+                <element signature="e#410#411#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -417,10 +419,11 @@
         <option value="$PROJECT_DIR$/src/test/java/firstTest.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/FirstTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/LoginWiki.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="36" />
     <option name="y" value="9" />
     <option name="width" value="1752" />
@@ -446,17 +449,6 @@
             <path>
               <item name="firstProjectL3" type="b2602c69:ProjectViewProjectNode" />
               <item name="NastaL3" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="gradle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="firstProjectL3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NastaL3" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="gradle" type="462c0819:PsiDirectoryNode" />
-              <item name="wrapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="firstProjectL3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NastaL3" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -472,10 +464,6 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="firstProjectL3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -484,7 +472,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576414500329" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576419203052" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -502,7 +490,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.LoginWiki.openChromeTest">
     <configuration name="FirstTest.openChromeTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="firstProjectL3_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -515,8 +503,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoginWiki.openChromeTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="firstProjectL3_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoginWiki" />
+      <option name="METHOD_NAME" value="openChromeTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.FirstTest.openChromeTest" />
+      <item itemvalue="TestNG.LoginWiki.openChromeTest" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginWiki.openChromeTest" />
         <item itemvalue="TestNG.FirstTest.openChromeTest" />
       </list>
     </recent_temporary>
@@ -535,26 +540,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FirstTest_openChromeTest - 2019.12.11 at 19h 36m 09s.xml">
-      <configuration name="FirstTest.openChromeTest" configurationId="TestNG" />
+    <history-entry file="LoginWiki_openChromeTest - 2019.12.15 at 15h 37m 39s.xml">
+      <configuration name="LoginWiki.openChromeTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirstTest_openChromeTest - 2019.12.11 at 19h 47m 06s.xml">
-      <configuration name="FirstTest.openChromeTest" configurationId="TestNG" />
+    <history-entry file="LoginWiki_openChromeTest - 2019.12.15 at 15h 38m 51s.xml">
+      <configuration name="LoginWiki.openChromeTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirstTest_openChromeTest - 2019.12.15 at 14h 45m 33s.xml">
-      <configuration name="FirstTest.openChromeTest" configurationId="TestNG" />
+    <history-entry file="LoginWiki_openChromeTest - 2019.12.15 at 15h 40m 38s.xml">
+      <configuration name="LoginWiki.openChromeTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirstTest_openChromeTest - 2019.12.15 at 14h 46m 38s.xml">
-      <configuration name="FirstTest.openChromeTest" configurationId="TestNG" />
+    <history-entry file="LoginWiki_openChromeTest - 2019.12.15 at 15h 41m 35s.xml">
+      <configuration name="LoginWiki.openChromeTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirstTest_openChromeTest - 2019.12.15 at 14h 48m 33s.xml">
-      <configuration name="FirstTest.openChromeTest" configurationId="TestNG" />
+    <history-entry file="LoginWiki_openChromeTest - 2019.12.15 at 15h 42m 06s.xml">
+      <configuration name="LoginWiki.openChromeTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirstTest_openChromeTest - 2019.12.15 at 14h 49m 21s.xml">
-      <configuration name="FirstTest.openChromeTest" configurationId="TestNG" />
+    <history-entry file="LoginWiki_openChromeTest - 2019.12.15 at 15h 43m 51s.xml">
+      <configuration name="LoginWiki.openChromeTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FirstTest_openChromeTest - 2019.12.15 at 14h 53m 06s.xml">
-      <configuration name="FirstTest.openChromeTest" configurationId="TestNG" />
+    <history-entry file="LoginWiki_openChromeTest - 2019.12.15 at 15h 44m 41s.xml">
+      <configuration name="LoginWiki.openChromeTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginWiki_openChromeTest - 2019.12.15 at 15h 53m 26s.xml">
+      <configuration name="LoginWiki.openChromeTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginWiki_openChromeTest - 2019.12.15 at 15h 55m 02s.xml">
+      <configuration name="LoginWiki.openChromeTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginWiki_openChromeTest - 2019.12.15 at 15h 57m 53s.xml">
+      <configuration name="LoginWiki.openChromeTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -575,7 +589,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.3283859" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21706864" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.14656772" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -595,29 +609,43 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
+        <state relative-caret-position="323">
           <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        <state relative-caret-position="136">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="8" selection-end-line="18" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#300#301#0" expanded="true" />
             <element signature="e#343#344#0" expanded="true" />
             <element signature="e#549#550#0" expanded="true" />
             <element signature="e#578#579#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/LoginWiki.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
           </folding>
         </state>
       </provider>
