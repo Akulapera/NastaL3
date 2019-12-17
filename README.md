@@ -1,1 +1,1 @@
-# NastaL3 - all lessons witn QA22
+# NastaL3 - all lessons with QA22
