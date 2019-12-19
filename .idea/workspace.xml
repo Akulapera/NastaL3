@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="16a60a76-821d-4380-9be9-caf6e43d36a0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginWiki.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginWiki.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -39,24 +41,27 @@
     <session id="-1153132606">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
           <entry key="gradle" value="1" />
-          <entry key="java" value="2" />
+          <entry key="java" value="4" />
           <entry key="properties" value="1" />
+          <entry key="vmoptions" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="2" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="JAVA" value="4" />
+          <entry key="PLAIN_TEXT" value="3" />
           <entry key="Properties" value="1" />
         </counts>
       </usages-collector>
@@ -64,13 +69,13 @@
         <counts>
           <entry key="dummy" value="1" />
           <entry key="gradle" value="21" />
-          <entry key="java" value="433" />
+          <entry key="java" value="577" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="21" />
-          <entry key="JAVA" value="433" />
+          <entry key="JAVA" value="577" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -78,11 +83,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/FirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="51">
+              <caret line="3" column="41" lean-forward="true" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,8 +98,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/LoginWiki.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="58" />
+            <state relative-caret-position="62">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Selectors.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -413,12 +442,15 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/firstTest.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/test/java/FirstTest.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions" />
+        <option value="$PROJECT_DIR$/src/test/java/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Selectors.java" />
         <option value="$PROJECT_DIR$/src/test/java/LoginWiki.java" />
+        <option value="$PROJECT_DIR$/src/test/java/FirstTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="36" />
     <option name="y" value="9" />
     <option name="width" value="1752" />
@@ -467,7 +499,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576431074085" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576766268098" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -485,7 +517,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LoginWiki.openChromeTest">
+  <component name="RunManager" selected="TestNG.Selectors.WikiElementsTest">
     <configuration name="FirstTest.openChromeTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="firstProjectL3_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -510,12 +542,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Selectors.WikiElementsTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="firstProjectL3_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Selectors" />
+      <option name="METHOD_NAME" value="WikiElementsTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="TestNG.FirstTest.openChromeTest" />
       <item itemvalue="TestNG.LoginWiki.openChromeTest" />
+      <item itemvalue="TestNG.Selectors.WikiElementsTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Selectors.WikiElementsTest" />
         <item itemvalue="TestNG.LoginWiki.openChromeTest" />
         <item itemvalue="TestNG.FirstTest.openChromeTest" />
       </list>
@@ -535,21 +581,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginWiki_openChromeTest - 2019.12.15 at 15h 37m 39s.xml">
-      <configuration name="LoginWiki.openChromeTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginWiki_openChromeTest - 2019.12.15 at 15h 38m 51s.xml">
-      <configuration name="LoginWiki.openChromeTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginWiki_openChromeTest - 2019.12.15 at 15h 40m 38s.xml">
-      <configuration name="LoginWiki.openChromeTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginWiki_openChromeTest - 2019.12.15 at 15h 41m 35s.xml">
-      <configuration name="LoginWiki.openChromeTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginWiki_openChromeTest - 2019.12.15 at 15h 42m 06s.xml">
-      <configuration name="LoginWiki.openChromeTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="LoginWiki_openChromeTest - 2019.12.15 at 15h 43m 51s.xml">
       <configuration name="LoginWiki.openChromeTest" configurationId="TestNG" />
     </history-entry>
@@ -565,12 +596,26 @@
     <history-entry file="LoginWiki_openChromeTest - 2019.12.15 at 15h 57m 53s.xml">
       <configuration name="LoginWiki.openChromeTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="LoginWiki_openChromeTest - 2019.12.18 at 09h 56m 32s.xml">
+      <configuration name="LoginWiki.openChromeTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Selectors_WikiElementsTest - 2019.12.18 at 14h 39m 56s.xml">
+      <configuration name="Selectors.WikiElementsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Selectors_WikiElementsTest - 2019.12.18 at 14h 40m 24s.xml">
+      <configuration name="Selectors.WikiElementsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Selectors_WikiElementsTest - 2019.12.18 at 14h 44m 28s.xml">
+      <configuration name="Selectors.WikiElementsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Selectors_WikiElementsTest - 2019.12.18 at 14h 45m 13s.xml">
+      <configuration name="Selectors.WikiElementsTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23805667" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15222672" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -579,16 +624,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.14656772" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8340081" weight="0.2188612" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.1659919" side_tool="true" weight="0.2188612" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.09647495" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3283859" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49878544" weight="0.17437722" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -599,6 +644,36 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24210526" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8348178" weight="0.2188612" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50040483" side_tool="true" weight="0.17437722" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.09647495" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" sideWeight="0.49959514" visible="true" weight="0.17437722" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" weight="0.09061225" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -617,20 +692,47 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/LoginWiki.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="58" />
+        <state relative-caret-position="221">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FirstTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="41" lean-forward="true" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FirstTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/LoginWiki.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="62">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Selectors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
