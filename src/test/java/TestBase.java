@@ -3,7 +3,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-
 import java.util.concurrent.TimeUnit;
 
 public class TestBase {
@@ -30,7 +29,7 @@ public class TestBase {
        dr.findElement(new By.ByClassName("mw-htmlform-submit")).click();
     }
 
-    public void selectLangEN(String local) {
+    public void selectLang(String local) {
        dr.findElement(new By.ById("js-link-box-"+ local)).click();
     }
 
@@ -53,5 +52,13 @@ public class TestBase {
        dr.findElement(locator).click();
        dr.findElement(locator).clear();
        dr.findElement(locator).sendKeys(text);
+    }
+
+    public String getArticleName(String locator) {
+        return dr.findElement(By.id(locator)).getText();
+    }
+
+    public void selectItemOfMenu(String itemOfMenu) {
+        dr.findElement(By.id(itemOfMenu)).click();
     }
 }
