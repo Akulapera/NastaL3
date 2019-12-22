@@ -10,5 +10,5 @@ public class LoginWiki extends TestBase {
       fillLoginForm("Nasta", "123456");
       pressSubmit();
    }
-   //kdffv dkvhfdvoldfglvbd vkifvubodfbv
+
 }
