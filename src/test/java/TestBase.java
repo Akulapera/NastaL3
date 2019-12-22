@@ -1,3 +1,4 @@
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
@@ -19,5 +20,38 @@ public class TestBase {
     public void tearDown() throws InterruptedException {
         Thread.sleep(3000);
         dr.quit();
+    }
+
+    public void openSite(String url) {
+        dr.get(url);
+    }
+
+    public void pressSubmit() {
+       dr.findElement(new By.ByClassName("mw-htmlform-submit")).click();
+    }
+
+    public void selectLangEN(String local) {
+       dr.findElement(new By.ById("js-link-box-"+ local)).click();
+    }
+
+    public void initLogin() {
+       dr.findElement(new By.ById("pt-login")).click();
+    }
+
+    public void fillLoginForm(String user, String password) {
+       type(new By.ById("wpName1"), user);
+       type(new By.ByName("wpPassword"), password);
+    }
+
+    public void type(By.ByName locator, String text) {
+       dr.findElement(locator).click();
+       dr.findElement(locator).clear();
+       dr.findElement(locator).sendKeys(text);
+    }
+
+    public void type(By.ById locator, String text) {
+       dr.findElement(locator).click();
+       dr.findElement(locator).clear();
+       dr.findElement(locator).sendKeys(text);
     }
 }
