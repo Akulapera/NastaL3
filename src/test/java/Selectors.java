@@ -10,5 +10,5 @@ public class Selectors extends TestBase {
         dr.navigate().back();
         dr.findElement(By.xpath("//*[@id='js-link-box-ja']")).click();
     }
-
+//hfis vkbv 777
 }
