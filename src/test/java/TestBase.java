@@ -58,7 +58,13 @@ public class TestBase {
         return dr.findElement(By.id(locator)).getText();
     }
 
-    public void selectItemOfMenu(String itemOfMenu) {
-        dr.findElement(By.id(itemOfMenu)).click();
+    public void selectItemOfMenu(String locatorItemOfMenu) {
+        dr.findElement(By.id(locatorItemOfMenu)).click();
+    }
+
+    public void printArticleName(String itemOfMenu, String ArticleLocator) {
+        selectItemOfMenu(itemOfMenu);
+        String s1 = getArticleName(ArticleLocator);
+        System.out.println(s1);
     }
 }

@@ -1,4 +1,3 @@
-import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
 public class TelRan extends TestBase{
@@ -6,28 +5,17 @@ public class TelRan extends TestBase{
     public  void doingSomethingSiteTelRan(){
         openSite("https://www.tel-ran.com/");
 
-        selectItemOfMenu("comp-k2d3m6ja1label");
-        String s1 = getArticleName("comp-k2iv941f");
-        System.out.println(s1);
+        printArticleName("comp-k2d3m6ja1label", "comp-k2iv941f");
 
-        selectItemOfMenu("comp-k2d3m6ja2label");
-        String s2= getArticleName("comp-k2lwlhsp");
-        System.out.println(s2);
+        printArticleName("comp-k2d3m6ja2label", "comp-k2lwlhsp");
 
-        selectItemOfMenu("comp-k2d3m6ja3label");
-        String s3= getArticleName("comp-k2yjzeum");
-        System.out.println(s3);
+        printArticleName("comp-k2d3m6ja3label", "comp-k2yjzeum");
 
-        selectItemOfMenu("comp-k2d3m6ja4label");
-        String s4= getArticleName("comp-k2yoaibp");
-        System.out.println(s4);
+        printArticleName("comp-k2d3m6ja4label", "comp-k2yoaibp");
 
-        selectItemOfMenu("comp-k2d3m6ja5label");
-        String s5= getArticleName("comp-k2yqvjis");
-        System.out.println(s5);
+        printArticleName("comp-k2d3m6ja5label", "comp-k2yqvjis");
 
-        selectItemOfMenu("comp-k2d3m6ja6label");
-        String s6= getArticleName("comp-k2ysntl7");
-        System.out.println(s6);
+        printArticleName("comp-k2d3m6ja6label", "comp-k2ysntl7");
     }
+
 }
